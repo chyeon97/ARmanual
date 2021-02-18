@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/motherboard"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/motherboard_click" />
+
+            <ImageButton
+                android:id="@+id/cpu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cpu_click" />
+
+            <ImageButton
+                android:id="@+id/ram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ram_click" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/grapiccard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/grapiccard_click" />
+
+            <ImageButton
+                android:id="@+id/odd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/odd_click" />
+
+            <ImageButton
+                android:id="@+id/ssd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ssd_click" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/hdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/hdd_click" />
+
+            <ImageButton
+                android:id="@+id/power"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/power_click" />
+
+            <ImageButton
+                android:id="@+id/keyboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/keyboard_click" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/case_"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ic_launcher_background"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/case_click" />
+
+            <ImageButton
+                android:id="@+id/cooler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/listview_white"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cooler_click" />
+
+            <ImageButton
+                android:id="@+id/mouse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/ic_launcher_background"
+                app:srcCompat="@drawable/mouse_click" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

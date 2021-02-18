@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="SSD" size="770.000000 876.000000" />
+    <ImageTarget name="HDD" size="800.000000 767.000000" />
+    <ImageTarget name="Power" size="1200.000000 576.000000" />
+    <ImageTarget name="Case" size="800.000000 456.000000" />
+    <ImageTarget name="Motherboard" size="840.000000 868.965515" />
+  </Tracking>
+</QCARConfig>

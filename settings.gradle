@@ -1,0 +1,2 @@
+include ':app', ':UserManual_0527'
+//project(':ARUserManual').projectDir = new File('E:\\ARUserManual')
